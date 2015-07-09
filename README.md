@@ -2,7 +2,7 @@
 Un simulador de las míticas galletas de la fortuna que nos muestra un *mensaje de la fortuna* en el LCD o en el navegador. 
 Gracias a WebSockets [WebSockets](https://www.wikiwand.com/es/WebSocket). Por supuesto se puede disparar la apertura de una galleta desde el navegador o desde nuestro propio Arduino.
 
-Este script esta diseñado para ser usado con [eduBasica Shield](http://www.practicasconarduino.com/edubasica/), pero también se peude hacer sin el.. sin necesidad de retocar el código en ningun momento.
+Este script esta diseñado para ser usado con [eduBasica Shield](http://www.practicasconarduino.com/edubasica/), pero también se puede hacer sin el.. sin necesidad de retocar el código en ningun momento.
 
 
 ## Descripción:
@@ -10,7 +10,7 @@ Este script esta diseñado para ser usado con [eduBasica Shield](http://www.prac
 ![tablet](https://github.com/UlisesGascon/Fortune-Cookie-Simulator/blob/master/img/tablet_fortune_cookies.png)
 
 
-Programado en Javascript, se apoya en Nodejs y la librería Johnny-five. Se peude acceder a nuestra aplicación desde cualquier dispositivo que este conectado a nuestra red local (compartiendo el mismo wifi o conexión). Solo es necesario introducir la url (IP + puerto) de nuestro Raspberry Pi en el navegador. Por ejemplo:
+Programado en Javascript, se apoya en Nodejs y la librería Johnny-five. Se puede acceder a nuestra aplicación desde cualquier dispositivo que este conectado a nuestra red local (compartiendo el mismo wifi o conexión). Solo es necesario introducir la url (IP + puerto) de nuestro Raspberry Pi en el navegador. Por ejemplo:
 
 	~~~
 	192.168.1.66:1000
@@ -44,7 +44,7 @@ El script esta listo para ejecutarse, pero existen opciones addicionales:
 	var debugMode = false; // o true
 	~~~
 
-- El entorno web (websockets) es opcional y se peude habilitar o deshabilitar con una variable.
+- El entorno web (websockets) es opcional y se puede habilitar o deshabilitar con una variable.
 	~~~
 	var wsMode = true; // o false
 	~~~
@@ -63,7 +63,6 @@ El script esta listo para ejecutarse, pero existen opciones addicionales:
 
 **Con [eduBasica Shield](http://www.practicasconarduino.com/edubasica/)**
 ![Conexiones](https://github.com/UlisesGascon/Fortune-Cookie-Simulator/blob/master/img/edubasica_mensaje.png)
-*Nota: el LCD tiene que tener instalado I2C. En la imagen, no lo es, pero los cables estan conectados como si fuera I2C*
 
 - Placa Arduino UNO o similar**
 
@@ -76,12 +75,14 @@ El script esta listo para ejecutarse, pero existen opciones addicionales:
 *I2C Backpack*
 ![Product i2c](https://learn.adafruit.com/system/assets/assets/000/001/874/medium260/lcds___displays_i2cwire_t.jpeg?1396777095)
 
-Más información sobre [Pantalla LCD en Adafruit](http://www.adafruit.com/products/198)
-Más información sobre [I2C Backpack en Adafruit](https://learn.adafruit.com/i2c-spi-lcd-backpack)
-Para adaptar este script a otro dispositivo, consulta [Johnny-five API](http://johnny-five.io/api/lcd/)
+Más información sobre [Pantalla LCD en Adafruit](http://www.adafruit.com/products/198).
+
+Más información sobre [I2C Backpack en Adafruit](https://learn.adafruit.com/i2c-spi-lcd-backpack).
+
+Para adaptar este script a otro dispositivo, consulta [Johnny-five API](http://johnny-five.io/api/lcd/).
 
 
-** Sin [eduBasica Shield](http://www.practicasconarduino.com/edubasica/)**
+**Sin [eduBasica Shield](http://www.practicasconarduino.com/edubasica/)**
 
 ![Conexiones](https://github.com/UlisesGascon/Fortune-Cookie-Simulator/blob/master/img/protoboard.png)
 *Nota: el LCD tiene que tener instalado I2C. En la imagen, no lo es, pero los cables estan conectados como si fuera I2C*
@@ -99,9 +100,11 @@ Para adaptar este script a otro dispositivo, consulta [Johnny-five API](http://j
 *I2C Backpack*
 ![Product i2c](https://learn.adafruit.com/system/assets/assets/000/001/874/medium260/lcds___displays_i2cwire_t.jpeg?1396777095)
 
-Más información sobre [Pantalla LCD en Adafruit](http://www.adafruit.com/products/198)
-Más información sobre [I2C Backpack en Adafruit](https://learn.adafruit.com/i2c-spi-lcd-backpack)
-Para adaptar este script a otro dispositivo, consulta [Johnny-five API](http://johnny-five.io/api/lcd/)
+Más información sobre [Pantalla LCD en Adafruit](http://www.adafruit.com/products/198).
+
+Más información sobre [I2C Backpack en Adafruit](https://learn.adafruit.com/i2c-spi-lcd-backpack).
+
+Para adaptar este script a otro dispositivo, consulta [Johnny-five API](http://johnny-five.io/api/lcd/).
 
 
 ## Pantalla de Bienvenida:
