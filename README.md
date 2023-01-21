@@ -1,3 +1,5 @@
+<h2 align="center">:warning: This repository is not longer maintained :warning:</h2>
+
 # Fortune Cookie Simulator
 Un simulador de las míticas galletas de la fortuna que nos muestra un *mensaje de la fortuna* en el LCD o en el navegador. 
 Gracias a WebSockets [WebSockets](https://www.wikiwand.com/es/WebSocket). Por supuesto se puede disparar la apertura de una galleta desde el navegador o desde nuestro propio Arduino.
